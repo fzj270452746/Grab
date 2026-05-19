@@ -348,7 +348,6 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use your camera to take photos";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need your consent to save the data infographics generated within the app to your photo album.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need your consent to save the data infographics generated within the app to your photo album.";
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We will use your data to enhance your user experience and provide personalized advertising services";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -391,7 +390,6 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use your camera to take photos";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need your consent to save the data infographics generated within the app to your photo album.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need your consent to save the data infographics generated within the app to your photo album.";
-				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We will use your data to enhance your user experience and provide personalized advertising services";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

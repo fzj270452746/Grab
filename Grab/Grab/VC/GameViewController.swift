@@ -3,16 +3,16 @@ import UIKit
 import SpriteKit
 import SDWebImage
 import Fdocuts
-import AppTrackingTransparency
+//import AppTrackingTransparency
 
 class GameViewController: UIViewController {
         
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            ATTrackingManager.requestTrackingAuthorization {_ in }
-        }
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+//            ATTrackingManager.requestTrackingAuthorization {_ in }
+//        }
     }
     
     override func viewDidLoad() {

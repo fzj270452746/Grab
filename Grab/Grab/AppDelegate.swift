@@ -1,7 +1,6 @@
 
 import UIKit
 import CoreData
-import SDWebImage
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

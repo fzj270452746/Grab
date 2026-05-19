@@ -1,6 +1,6 @@
 
 import UIKit
-import AppTrackingTransparency
+//import AppTrackingTransparency
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -25,9 +25,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func sceneDidBecomeActive(_ scene: UIScene) {
         // Called when the scene has moved from an inactive state to an active state.
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-            ATTrackingManager.requestTrackingAuthorization {_ in }
-        }
+//        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+//            ATTrackingManager.requestTrackingAuthorization {_ in }
+//        }
     }
 
     func sceneWillResignActive(_ scene: UIScene) {
