@@ -1,0 +1,5330 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Fdocuts",
+    "printedName": "Fdocuts",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Fdocuts"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Fdocuts"
+      },
+      {
+        "kind": "Var",
+        "name": "Brie",
+        "printedName": "Brie",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:7Fdocuts4BrieSSvp",
+        "mangledName": "$s7Fdocuts4BrieSSvp",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "amt",
+        "printedName": "amt",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:7Fdocuts3amtSSvp",
+        "mangledName": "$s7Fdocuts3amtSSvp",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "ren",
+        "printedName": "ren",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:7Fdocuts3renSSvp",
+        "mangledName": "$s7Fdocuts3renSSvp",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "OpWin",
+        "printedName": "OpWin",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:7Fdocuts5OpWinSSvp",
+        "mangledName": "$s7Fdocuts5OpWinSSvp",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FeedbackUnViewController",
+        "printedName": "FeedbackUnViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "kubsg",
+            "printedName": "kubsg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Fdocuts.Mnzayye?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Mnzayye",
+                    "printedName": "Fdocuts.Mnzayye",
+                    "usr": "s:7Fdocuts7MnzayyeV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts24FeedbackUnViewControllerC5kubsgAA7MnzayyeVSgvp",
+            "mangledName": "$s7Fdocuts24FeedbackUnViewControllerC5kubsgAA7MnzayyeVSgvp",
+            "moduleName": "Fdocuts",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Fdocuts.Mnzayye?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Mnzayye",
+                        "printedName": "Fdocuts.Mnzayye",
+                        "usr": "s:7Fdocuts7MnzayyeV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts24FeedbackUnViewControllerC5kubsgAA7MnzayyeVSgvg",
+                "mangledName": "$s7Fdocuts24FeedbackUnViewControllerC5kubsgAA7MnzayyeVSgvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Fdocuts.Mnzayye?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Mnzayye",
+                        "printedName": "Fdocuts.Mnzayye",
+                        "usr": "s:7Fdocuts7MnzayyeV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts24FeedbackUnViewControllerC5kubsgAA7MnzayyeVSgvs",
+                "mangledName": "$s7Fdocuts24FeedbackUnViewControllerC5kubsgAA7MnzayyeVSgvs",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts24FeedbackUnViewControllerC5kubsgAA7MnzayyeVSgvM",
+                "mangledName": "$s7Fdocuts24FeedbackUnViewControllerC5kubsgAA7MnzayyeVSgvM",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "diysb",
+            "printedName": "diysb",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts24FeedbackUnViewControllerC5diysb33_CC7D4B0BBD543C797496FDC97554628ELLSo05WKWebD0CSgvp",
+            "mangledName": "$s7Fdocuts24FeedbackUnViewControllerC5diysb33_CC7D4B0BBD543C797496FDC97554628ELLSo05WKWebD0CSgvp",
+            "moduleName": "Fdocuts",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "kaoieus",
+            "printedName": "kaoieus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts24FeedbackUnViewControllerC7kaoieus33_CC7D4B0BBD543C797496FDC97554628ELLSSSgvp",
+            "mangledName": "$s7Fdocuts24FeedbackUnViewControllerC7kaoieus33_CC7D4B0BBD543C797496FDC97554628ELLSSSgvp",
+            "moduleName": "Fdocuts",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Fdocuts@objc(cs)FeedbackUnViewController(im)viewDidLoad",
+            "mangledName": "$s7Fdocuts24FeedbackUnViewControllerC11viewDidLoadyyF",
+            "moduleName": "Fdocuts",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Fdocuts@objc(cs)FeedbackUnViewController(im)viewDidLayoutSubviews",
+            "mangledName": "$s7Fdocuts24FeedbackUnViewControllerC21viewDidLayoutSubviewsyyF",
+            "moduleName": "Fdocuts",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Fdocuts@objc(cs)FeedbackUnViewController(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s7Fdocuts24FeedbackUnViewControllerC03webD0_15decidePolicyFor15decisionHandlerySo05WKWebD0C_So18WKNavigationActionCySo0mnH0VctF",
+            "moduleName": "Fdocuts",
+            "isOpen": true,
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:createWebViewWith:for:windowFeatures:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWindowFeatures",
+                "printedName": "WebKit.WKWindowFeatures",
+                "usr": "c:objc(cs)WKWindowFeatures"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Fdocuts@objc(cs)FeedbackUnViewController(im)webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "mangledName": "$s7Fdocuts24FeedbackUnViewControllerC03webD0_09createWebD4With3for14windowFeaturesSo05WKWebD0CSgAI_So0mD13ConfigurationCSo18WKNavigationActionCSo08WKWindowL0CtF",
+            "moduleName": "Fdocuts",
+            "isOpen": true,
+            "objc_name": "webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userContentController",
+            "printedName": "userContentController(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKUserContentController",
+                "printedName": "WebKit.WKUserContentController",
+                "usr": "c:objc(cs)WKUserContentController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Fdocuts@objc(cs)FeedbackUnViewController(im)userContentController:didReceiveScriptMessage:",
+            "mangledName": "$s7Fdocuts24FeedbackUnViewControllerC011userContentE0_10didReceiveySo06WKUsergE0C_So15WKScriptMessageCtF",
+            "moduleName": "Fdocuts",
+            "isOpen": true,
+            "objc_name": "userContentController:didReceiveScriptMessage:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "shouldAutorotate",
+            "printedName": "shouldAutorotate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Fdocuts@objc(cs)FeedbackUnViewController(py)shouldAutorotate",
+            "mangledName": "$s7Fdocuts24FeedbackUnViewControllerC16shouldAutorotateSbvp",
+            "moduleName": "Fdocuts",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "shouldAutorotate",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Fdocuts@objc(cs)FeedbackUnViewController(im)shouldAutorotate",
+                "mangledName": "$s7Fdocuts24FeedbackUnViewControllerC16shouldAutorotateSbvg",
+                "moduleName": "Fdocuts",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "shouldAutorotate",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Fdocuts@objc(cs)FeedbackUnViewController(py)supportedInterfaceOrientations",
+            "mangledName": "$s7Fdocuts24FeedbackUnViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "Fdocuts",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Fdocuts@objc(cs)FeedbackUnViewController(im)supportedInterfaceOrientations",
+                "mangledName": "$s7Fdocuts24FeedbackUnViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "Fdocuts",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FeedbackUnViewController",
+                "printedName": "Fdocuts.FeedbackUnViewController",
+                "usr": "c:@M@Fdocuts@objc(cs)FeedbackUnViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Fdocuts@objc(cs)FeedbackUnViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s7Fdocuts24FeedbackUnViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "Fdocuts",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Fdocuts.FeedbackUnViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FeedbackUnViewController",
+                    "printedName": "Fdocuts.FeedbackUnViewController",
+                    "usr": "c:@M@Fdocuts@objc(cs)FeedbackUnViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Fdocuts@objc(cs)FeedbackUnViewController(im)initWithCoder:",
+            "mangledName": "$s7Fdocuts24FeedbackUnViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "Fdocuts",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Fdocuts@objc(cs)FeedbackUnViewController",
+        "mangledName": "$s7Fdocuts24FeedbackUnViewControllerC",
+        "moduleName": "Fdocuts",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Fdocuts"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Fdocuts"
+      },
+      {
+        "kind": "Function",
+        "name": "ITcouye",
+        "printedName": "ITcouye(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.String?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7Fdocuts7ITcouyeySSSgSSF",
+        "mangledName": "$s7Fdocuts7ITcouyeySSSgSSF",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Var",
+        "name": "kOncvare",
+        "printedName": "kOncvare",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:7Fdocuts8kOncvareSSvp",
+        "mangledName": "$s7Fdocuts8kOncvareSSvp",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "kBuazxous",
+        "printedName": "kBuazxous",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:7Fdocuts9kBuazxousSSvp",
+        "mangledName": "$s7Fdocuts9kBuazxousSSvp",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Function",
+        "name": "Ybgasue",
+        "printedName": "Ybgasue()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7Fdocuts7YbgasueyyF",
+        "mangledName": "$s7Fdocuts7YbgasueyyF",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "Hsouxyte",
+        "printedName": "Hsouxyte()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7Fdocuts8HsouxyteyyF",
+        "mangledName": "$s7Fdocuts8HsouxyteyyF",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "Linozrgww",
+        "printedName": "Linozrgww(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Mnzayye",
+            "printedName": "Fdocuts.Mnzayye",
+            "usr": "s:7Fdocuts7MnzayyeV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7Fdocuts9LinozrgwwyyAA7MnzayyeVF",
+        "mangledName": "$s7Fdocuts9LinozrgwwyyAA7MnzayyeVF",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "Hbctos",
+        "printedName": "Hbctos(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Mnzayye",
+            "printedName": "Fdocuts.Mnzayye",
+            "usr": "s:7Fdocuts7MnzayyeV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7Fdocuts6HbctosyyAA7MnzayyeVF",
+        "mangledName": "$s7Fdocuts6HbctosyyAA7MnzayyeVF",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Var",
+        "name": "Nam",
+        "printedName": "Nam",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:7Fdocuts3NamSSvp",
+        "mangledName": "$s7Fdocuts3NamSSvp",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "DT",
+        "printedName": "DT",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:7Fdocuts2DTSSvp",
+        "mangledName": "$s7Fdocuts2DTSSvp",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Var",
+        "name": "UL",
+        "printedName": "UL",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:7Fdocuts2ULSSvp",
+        "mangledName": "$s7Fdocuts2ULSSvp",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage"
+        ],
+        "isLet": true,
+        "hasStorage": true
+      },
+      {
+        "kind": "Function",
+        "name": "caevtaw",
+        "printedName": "caevtaw(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Dictionary",
+            "printedName": "[Swift.String : Swift.String]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:SD"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7Fdocuts7caevtawyySDyS2SGF",
+        "mangledName": "$s7Fdocuts7caevtawyySDyS2SGF",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "Nbavyt6us",
+        "printedName": "Nbavyt6us(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Dictionary",
+            "printedName": "[Swift.String : Swift.String]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:SD"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7Fdocuts9Nbavyt6usyySDyS2SGF",
+        "mangledName": "$s7Fdocuts9Nbavyt6usyySDyS2SGF",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Mnzayye",
+        "printedName": "Mnzayye",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "chgasy",
+            "printedName": "chgasy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts7MnzayyeV6chgasySSSgvp",
+            "mangledName": "$s7Fdocuts7MnzayyeV6chgasySSSgvp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts7MnzayyeV6chgasySSSgvg",
+                "mangledName": "$s7Fdocuts7MnzayyeV6chgasySSSgvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mskoet",
+            "printedName": "mskoet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts7MnzayyeV6mskoetSaySSGSgvp",
+            "mangledName": "$s7Fdocuts7MnzayyeV6mskoetSaySSGSgvp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts7MnzayyeV6mskoetSaySSGSgvg",
+                "mangledName": "$s7Fdocuts7MnzayyeV6mskoetSaySSGSgvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rztavs",
+            "printedName": "rztavs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts7MnzayyeV6rztavsSSSgvp",
+            "mangledName": "$s7Fdocuts7MnzayyeV6rztavsSSSgvp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts7MnzayyeV6rztavsSSSgvg",
+                "mangledName": "$s7Fdocuts7MnzayyeV6rztavsSSSgvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rxeve",
+            "printedName": "rxeve",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts7MnzayyeV5rxeveSiSgvp",
+            "mangledName": "$s7Fdocuts7MnzayyeV5rxeveSiSgvp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts7MnzayyeV5rxeveSiSgvg",
+                "mangledName": "$s7Fdocuts7MnzayyeV5rxeveSiSgvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mznnsj",
+            "printedName": "mznnsj",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts7MnzayyeV6mznnsjSDyS2SGSgvp",
+            "mangledName": "$s7Fdocuts7MnzayyeV6mznnsjSDyS2SGSgvp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts7MnzayyeV6mznnsjSDyS2SGSgvg",
+                "mangledName": "$s7Fdocuts7MnzayyeV6mznnsjSDyS2SGSgvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tbasus",
+            "printedName": "tbasus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts7MnzayyeV6tbasusSDyS2SGSgvp",
+            "mangledName": "$s7Fdocuts7MnzayyeV6tbasusSDyS2SGSgvp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts7MnzayyeV6tbasusSDyS2SGSgvg",
+                "mangledName": "$s7Fdocuts7MnzayyeV6tbasusSDyS2SGSgvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "jdubaa",
+            "printedName": "jdubaa",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts7MnzayyeV6jdubaaSSSgvp",
+            "mangledName": "$s7Fdocuts7MnzayyeV6jdubaaSSSgvp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 6,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts7MnzayyeV6jdubaaSSSgvg",
+                "mangledName": "$s7Fdocuts7MnzayyeV6jdubaaSSSgvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ytdbom",
+            "printedName": "ytdbom",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts7MnzayyeV6ytdbomSaySSGSgvp",
+            "mangledName": "$s7Fdocuts7MnzayyeV6ytdbomSaySSGSgvp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 7,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts7MnzayyeV6ytdbomSaySSGSgvg",
+                "mangledName": "$s7Fdocuts7MnzayyeV6ytdbomSaySSGSgvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "vcbbare",
+            "printedName": "vcbbare",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts7MnzayyeV7vcbbareSSSgvp",
+            "mangledName": "$s7Fdocuts7MnzayyeV7vcbbareSSSgvp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 8,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts7MnzayyeV7vcbbareSSSgvg",
+                "mangledName": "$s7Fdocuts7MnzayyeV7vcbbareSSSgvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mnzbvs",
+            "printedName": "mnzbvs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts7MnzayyeV6mnzbvsSSSgvp",
+            "mangledName": "$s7Fdocuts7MnzayyeV6mnzbvsSSSgvp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 9,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts7MnzayyeV6mnzbvsSSSgvg",
+                "mangledName": "$s7Fdocuts7MnzayyeV6mnzbvsSSSgvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "qaisam",
+            "printedName": "qaisam",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts7MnzayyeV6qaisamSSSgvp",
+            "mangledName": "$s7Fdocuts7MnzayyeV6qaisamSSSgvp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 10,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts7MnzayyeV6qaisamSSSgvg",
+                "mangledName": "$s7Fdocuts7MnzayyeV6qaisamSSSgvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rsvemv",
+            "printedName": "rsvemv",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts7MnzayyeV6rsvemvSSSgvp",
+            "mangledName": "$s7Fdocuts7MnzayyeV6rsvemvSSSgvp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 11,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts7MnzayyeV6rsvemvSSSgvg",
+                "mangledName": "$s7Fdocuts7MnzayyeV6rsvemvSSSgvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "taewrc",
+            "printedName": "taewrc",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts7MnzayyeV6taewrcSSSgvp",
+            "mangledName": "$s7Fdocuts7MnzayyeV6taewrcSSSgvp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 12,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts7MnzayyeV6taewrcSSSgvg",
+                "mangledName": "$s7Fdocuts7MnzayyeV6taewrcSSSgvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "alximm",
+            "printedName": "alximm",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts7MnzayyeV6alximmSSSgvp",
+            "mangledName": "$s7Fdocuts7MnzayyeV6alximmSSSgvp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 13,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts7MnzayyeV6alximmSSSgvg",
+                "mangledName": "$s7Fdocuts7MnzayyeV6alximmSSSgvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "jdnbq",
+            "printedName": "jdnbq",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts7MnzayyeV5jdnbqSSSgvp",
+            "mangledName": "$s7Fdocuts7MnzayyeV5jdnbqSSSgvp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 14,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts7MnzayyeV5jdnbqSSSgvg",
+                "mangledName": "$s7Fdocuts7MnzayyeV5jdnbqSSSgvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(chgasy:mskoet:rztavs:rxeve:mznnsj:tbasus:jdubaa:ytdbom:vcbbare:mnzbvs:qaisam:rsvemv:taewrc:alximm:jdnbq:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Mnzayye",
+                "printedName": "Fdocuts.Mnzayye",
+                "usr": "s:7Fdocuts7MnzayyeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Fdocuts7MnzayyeV6chgasy6mskoet6rztavs5rxeve6mznnsj6tbasus6jdubaa6ytdbom7vcbbare6mnzbvs6qaisam6rsvemv6taewrc6alximm5jdnbqACSSSg_SaySSGSgASSiSgSDyS2SGSgAxsu7Stcfc",
+            "mangledName": "$s7Fdocuts7MnzayyeV6chgasy6mskoet6rztavs5rxeve6mznnsj6tbasus6jdubaa6ytdbom7vcbbare6mnzbvs6qaisam6rsvemv6taewrc6alximm5jdnbqACSSSg_SaySSGSgASSiSgSDyS2SGSgAxsu7Stcfc",
+            "moduleName": "Fdocuts",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Mnzayye",
+                "printedName": "Fdocuts.Mnzayye",
+                "usr": "s:7Fdocuts7MnzayyeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Fdocuts7MnzayyeV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7Fdocuts7MnzayyeV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Fdocuts",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Fdocuts7MnzayyeV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7Fdocuts7MnzayyeV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Fdocuts",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7Fdocuts7MnzayyeV",
+        "mangledName": "$s7Fdocuts7MnzayyeV",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "Tsosbe",
+        "printedName": "Tsosbe()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7Fdocuts6TsosbeSbyF",
+        "mangledName": "$s7Fdocuts6TsosbeSbyF",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "Fdocuts"
+      },
+      {
+        "kind": "Function",
+        "name": "kmdntyt",
+        "printedName": "kmdntyt()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7Fdocuts7kmdntytSbyF",
+        "mangledName": "$s7Fdocuts7kmdntytSbyF",
+        "moduleName": "Fdocuts",
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "ateioh",
+        "printedName": "ateioh()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7Fdocuts6ateiohyyF",
+        "mangledName": "$s7Fdocuts6ateiohyyF",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "kdoytabse",
+        "printedName": "kdoytabse()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:7Fdocuts9kdoytabseyyF",
+        "mangledName": "$s7Fdocuts9kdoytabseyyF",
+        "moduleName": "Fdocuts",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Fdocuts"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Fdocuts"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GebaeudeDefinition",
+        "printedName": "GebaeudeDefinition",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts18GebaeudeDefinitionV4nameSSvp",
+            "mangledName": "$s7Fdocuts18GebaeudeDefinitionV4nameSSvp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts18GebaeudeDefinitionV4nameSSvg",
+                "mangledName": "$s7Fdocuts18GebaeudeDefinitionV4nameSSvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "basisProduktion",
+            "printedName": "basisProduktion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts18GebaeudeDefinitionV15basisProduktionSdvp",
+            "mangledName": "$s7Fdocuts18GebaeudeDefinitionV15basisProduktionSdvp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts18GebaeudeDefinitionV15basisProduktionSdvg",
+                "mangledName": "$s7Fdocuts18GebaeudeDefinitionV15basisProduktionSdvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "basisPreis",
+            "printedName": "basisPreis",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts18GebaeudeDefinitionV10basisPreisSdvp",
+            "mangledName": "$s7Fdocuts18GebaeudeDefinitionV10basisPreisSdvp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts18GebaeudeDefinitionV10basisPreisSdvg",
+                "mangledName": "$s7Fdocuts18GebaeudeDefinitionV10basisPreisSdvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "benoetigteEpoche",
+            "printedName": "benoetigteEpoche",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts18GebaeudeDefinitionV16benoetigteEpocheSivp",
+            "mangledName": "$s7Fdocuts18GebaeudeDefinitionV16benoetigteEpocheSivp",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts18GebaeudeDefinitionV16benoetigteEpocheSivg",
+                "mangledName": "$s7Fdocuts18GebaeudeDefinitionV16benoetigteEpocheSivg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:basisProduktion:basisPreis:benoetigteEpoche:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GebaeudeDefinition",
+                "printedName": "Fdocuts.GebaeudeDefinition",
+                "usr": "s:7Fdocuts18GebaeudeDefinitionV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Fdocuts18GebaeudeDefinitionV4name15basisProduktion0E5Preis16benoetigteEpocheACSS_S2dSitcfc",
+            "mangledName": "$s7Fdocuts18GebaeudeDefinitionV4name15basisProduktion0E5Preis16benoetigteEpocheACSS_S2dSitcfc",
+            "moduleName": "Fdocuts",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7Fdocuts18GebaeudeDefinitionV",
+        "mangledName": "$s7Fdocuts18GebaeudeDefinitionV",
+        "moduleName": "Fdocuts",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Epoche",
+        "printedName": "Epoche",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "stammeskultur",
+            "printedName": "stammeskultur",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fdocuts.Epoche.Type) -> Fdocuts.Epoche",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Epoche",
+                    "printedName": "Fdocuts.Epoche",
+                    "usr": "s:7Fdocuts6EpocheO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fdocuts.Epoche.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Epoche",
+                        "printedName": "Fdocuts.Epoche",
+                        "usr": "s:7Fdocuts6EpocheO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Fdocuts6EpocheO13stammeskulturyA2CmF",
+            "mangledName": "$s7Fdocuts6EpocheO13stammeskulturyA2CmF",
+            "moduleName": "Fdocuts",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "antike",
+            "printedName": "antike",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fdocuts.Epoche.Type) -> Fdocuts.Epoche",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Epoche",
+                    "printedName": "Fdocuts.Epoche",
+                    "usr": "s:7Fdocuts6EpocheO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fdocuts.Epoche.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Epoche",
+                        "printedName": "Fdocuts.Epoche",
+                        "usr": "s:7Fdocuts6EpocheO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Fdocuts6EpocheO6antikeyA2CmF",
+            "mangledName": "$s7Fdocuts6EpocheO6antikeyA2CmF",
+            "moduleName": "Fdocuts",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "mittelalter",
+            "printedName": "mittelalter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fdocuts.Epoche.Type) -> Fdocuts.Epoche",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Epoche",
+                    "printedName": "Fdocuts.Epoche",
+                    "usr": "s:7Fdocuts6EpocheO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fdocuts.Epoche.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Epoche",
+                        "printedName": "Fdocuts.Epoche",
+                        "usr": "s:7Fdocuts6EpocheO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Fdocuts6EpocheO11mittelalteryA2CmF",
+            "mangledName": "$s7Fdocuts6EpocheO11mittelalteryA2CmF",
+            "moduleName": "Fdocuts",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "renaissance",
+            "printedName": "renaissance",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Fdocuts.Epoche.Type) -> Fdocuts.Epoche",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Epoche",
+                    "printedName": "Fdocuts.Epoche",
+                    "usr": "s:7Fdocuts6EpocheO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Fdocuts.Epoche.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Epoche",
+                        "printedName": "Fdocuts.Epoche",
+                        "usr": "s:7Fdocuts6EpocheO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7Fdocuts6EpocheO11renaissanceyA2CmF",
+            "mangledName": "$s7Fdocuts6EpocheO11renaissanceyA2CmF",
+            "moduleName": "Fdocuts",
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "anzeigeName",
+            "printedName": "anzeigeName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts6EpocheO11anzeigeNameSSvp",
+            "mangledName": "$s7Fdocuts6EpocheO11anzeigeNameSSvp",
+            "moduleName": "Fdocuts",
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts6EpocheO11anzeigeNameSSvg",
+                "mangledName": "$s7Fdocuts6EpocheO11anzeigeNameSSvg",
+                "moduleName": "Fdocuts",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "multiplikator",
+            "printedName": "multiplikator",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts6EpocheO13multiplikatorSdvp",
+            "mangledName": "$s7Fdocuts6EpocheO13multiplikatorSdvp",
+            "moduleName": "Fdocuts",
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts6EpocheO13multiplikatorSdvg",
+                "mangledName": "$s7Fdocuts6EpocheO13multiplikatorSdvg",
+                "moduleName": "Fdocuts",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "benoetigteGesamtPunkte",
+            "printedName": "benoetigteGesamtPunkte",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts6EpocheO22benoetigteGesamtPunkteSdvp",
+            "mangledName": "$s7Fdocuts6EpocheO22benoetigteGesamtPunkteSdvp",
+            "moduleName": "Fdocuts",
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts6EpocheO22benoetigteGesamtPunkteSdvg",
+                "mangledName": "$s7Fdocuts6EpocheO22benoetigteGesamtPunkteSdvg",
+                "moduleName": "Fdocuts",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Fdocuts.Epoche?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Epoche",
+                    "printedName": "Fdocuts.Epoche",
+                    "usr": "s:7Fdocuts6EpocheO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Fdocuts6EpocheO8rawValueACSgSi_tcfc",
+            "mangledName": "$s7Fdocuts6EpocheO8rawValueACSgSi_tcfc",
+            "moduleName": "Fdocuts",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts6EpocheO8rawValueSivp",
+            "mangledName": "$s7Fdocuts6EpocheO8rawValueSivp",
+            "moduleName": "Fdocuts",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts6EpocheO8rawValueSivg",
+                "mangledName": "$s7Fdocuts6EpocheO8rawValueSivg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Fdocuts.Epoche]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Epoche",
+                    "printedName": "Fdocuts.Epoche",
+                    "usr": "s:7Fdocuts6EpocheO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts6EpocheO8allCasesSayACGvpZ",
+            "mangledName": "$s7Fdocuts6EpocheO8allCasesSayACGvpZ",
+            "moduleName": "Fdocuts",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Fdocuts.Epoche]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Epoche",
+                        "printedName": "Fdocuts.Epoche",
+                        "usr": "s:7Fdocuts6EpocheO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts6EpocheO8allCasesSayACGvgZ",
+                "mangledName": "$s7Fdocuts6EpocheO8allCasesSayACGvgZ",
+                "moduleName": "Fdocuts",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7Fdocuts6EpocheO",
+        "mangledName": "$s7Fdocuts6EpocheO",
+        "moduleName": "Fdocuts",
+        "enumRawTypeName": "Int",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Fdocuts.Epoche]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Epoche",
+                        "printedName": "Fdocuts.Epoche",
+                        "usr": "s:7Fdocuts6EpocheO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SpielEngineDelegate",
+        "printedName": "SpielEngineDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "datenWurdenGeaendert",
+            "printedName": "datenWurdenGeaendert()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Fdocuts19SpielEngineDelegateP20datenWurdenGeaendertyyF",
+            "mangledName": "$s7Fdocuts19SpielEngineDelegateP20datenWurdenGeaendertyyF",
+            "moduleName": "Fdocuts",
+            "genericSig": "<τ_0_0 where τ_0_0 : Fdocuts.SpielEngineDelegate>",
+            "sugared_genericSig": "<Self where Self : Fdocuts.SpielEngineDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "epocheWurdeGehoben",
+            "printedName": "epocheWurdeGehoben(neueEpoche:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Epoche",
+                "printedName": "Fdocuts.Epoche",
+                "usr": "s:7Fdocuts6EpocheO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Fdocuts19SpielEngineDelegateP18epocheWurdeGehoben10neueEpocheyAA0I0O_tF",
+            "mangledName": "$s7Fdocuts19SpielEngineDelegateP18epocheWurdeGehoben10neueEpocheyAA0I0O_tF",
+            "moduleName": "Fdocuts",
+            "genericSig": "<τ_0_0 where τ_0_0 : Fdocuts.SpielEngineDelegate>",
+            "sugared_genericSig": "<Self where Self : Fdocuts.SpielEngineDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7Fdocuts19SpielEngineDelegateP",
+        "mangledName": "$s7Fdocuts19SpielEngineDelegateP",
+        "moduleName": "Fdocuts",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SDWebImage",
+        "printedName": "SDWebImage",
+        "declKind": "Import",
+        "moduleName": "Fdocuts"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SpielEngine",
+        "printedName": "SpielEngine",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any Fdocuts.SpielEngineDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts11SpielEngineC8delegateAA0bC8Delegate_pSgvp",
+            "mangledName": "$s7Fdocuts11SpielEngineC8delegateAA0bC8Delegate_pSgvp",
+            "moduleName": "Fdocuts",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Fdocuts.SpielEngineDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SpielEngineDelegate",
+                        "printedName": "any Fdocuts.SpielEngineDelegate",
+                        "usr": "s:7Fdocuts19SpielEngineDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts11SpielEngineC8delegateAA0bC8Delegate_pSgvg",
+                "mangledName": "$s7Fdocuts11SpielEngineC8delegateAA0bC8Delegate_pSgvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Fdocuts.SpielEngineDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SpielEngineDelegate",
+                        "printedName": "any Fdocuts.SpielEngineDelegate",
+                        "usr": "s:7Fdocuts19SpielEngineDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts11SpielEngineC8delegateAA0bC8Delegate_pSgvs",
+                "mangledName": "$s7Fdocuts11SpielEngineC8delegateAA0bC8Delegate_pSgvs",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts11SpielEngineC8delegateAA0bC8Delegate_pSgvM",
+                "mangledName": "$s7Fdocuts11SpielEngineC8delegateAA0bC8Delegate_pSgvM",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "aktuelleRessourcen",
+            "printedName": "aktuelleRessourcen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts11SpielEngineC18aktuelleRessourcenSdvp",
+            "mangledName": "$s7Fdocuts11SpielEngineC18aktuelleRessourcenSdvp",
+            "moduleName": "Fdocuts",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts11SpielEngineC18aktuelleRessourcenSdvg",
+                "mangledName": "$s7Fdocuts11SpielEngineC18aktuelleRessourcenSdvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gesamtVerdienteRessourcen",
+            "printedName": "gesamtVerdienteRessourcen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts11SpielEngineC25gesamtVerdienteRessourcenSdvp",
+            "mangledName": "$s7Fdocuts11SpielEngineC25gesamtVerdienteRessourcenSdvp",
+            "moduleName": "Fdocuts",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts11SpielEngineC25gesamtVerdienteRessourcenSdvg",
+                "mangledName": "$s7Fdocuts11SpielEngineC25gesamtVerdienteRessourcenSdvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "aktuelleEpoche",
+            "printedName": "aktuelleEpoche",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Epoche",
+                "printedName": "Fdocuts.Epoche",
+                "usr": "s:7Fdocuts6EpocheO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts11SpielEngineC14aktuelleEpocheAA0E0Ovp",
+            "mangledName": "$s7Fdocuts11SpielEngineC14aktuelleEpocheAA0E0Ovp",
+            "moduleName": "Fdocuts",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Epoche",
+                    "printedName": "Fdocuts.Epoche",
+                    "usr": "s:7Fdocuts6EpocheO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts11SpielEngineC14aktuelleEpocheAA0E0Ovg",
+                "mangledName": "$s7Fdocuts11SpielEngineC14aktuelleEpocheAA0E0Ovg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gebaeudeAnzahl",
+            "printedName": "gebaeudeAnzahl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts11SpielEngineC14gebaeudeAnzahlSaySiGvp",
+            "mangledName": "$s7Fdocuts11SpielEngineC14gebaeudeAnzahlSaySiGvp",
+            "moduleName": "Fdocuts",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts11SpielEngineC14gebaeudeAnzahlSaySiGvg",
+                "mangledName": "$s7Fdocuts11SpielEngineC14gebaeudeAnzahlSaySiGvg",
+                "moduleName": "Fdocuts",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SpielEngine",
+                "printedName": "Fdocuts.SpielEngine",
+                "usr": "s:7Fdocuts11SpielEngineC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7Fdocuts11SpielEngineCACycfc",
+            "mangledName": "$s7Fdocuts11SpielEngineCACycfc",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "aktuellerErtragProSekunde",
+            "printedName": "aktuellerErtragProSekunde",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts11SpielEngineC25aktuellerErtragProSekundeSdvp",
+            "mangledName": "$s7Fdocuts11SpielEngineC25aktuellerErtragProSekundeSdvp",
+            "moduleName": "Fdocuts",
+            "isOpen": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts11SpielEngineC25aktuellerErtragProSekundeSdvg",
+                "mangledName": "$s7Fdocuts11SpielEngineC25aktuellerErtragProSekundeSdvg",
+                "moduleName": "Fdocuts",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "produktionAktualisieren",
+            "printedName": "produktionAktualisieren()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Fdocuts11SpielEngineC23produktionAktualisierenyyF",
+            "mangledName": "$s7Fdocuts11SpielEngineC23produktionAktualisierenyyF",
+            "moduleName": "Fdocuts",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "manuelleArbeit",
+            "printedName": "manuelleArbeit()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Fdocuts11SpielEngineC14manuelleArbeityyF",
+            "mangledName": "$s7Fdocuts11SpielEngineC14manuelleArbeityyF",
+            "moduleName": "Fdocuts",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "kaufeGebaeude",
+            "printedName": "kaufeGebaeude(at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Fdocuts11SpielEngineC13kaufeGebaeude2atSbSi_tF",
+            "mangledName": "$s7Fdocuts11SpielEngineC13kaufeGebaeude2atSbSi_tF",
+            "moduleName": "Fdocuts",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "berechnePreisFuerGebaeude",
+            "printedName": "berechnePreisFuerGebaeude(at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Fdocuts11SpielEngineC25berechnePreisFuerGebaeude2atSdSi_tF",
+            "mangledName": "$s7Fdocuts11SpielEngineC25berechnePreisFuerGebaeude2atSdSi_tF",
+            "moduleName": "Fdocuts",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "anzahlFuerGebaeude",
+            "printedName": "anzahlFuerGebaeude(at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Fdocuts11SpielEngineC18anzahlFuerGebaeude2atS2i_tF",
+            "mangledName": "$s7Fdocuts11SpielEngineC18anzahlFuerGebaeude2atS2i_tF",
+            "moduleName": "Fdocuts",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "istGebaeudeFreigeschaltet",
+            "printedName": "istGebaeudeFreigeschaltet(at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Fdocuts11SpielEngineC25istGebaeudeFreigeschaltet2atSbSi_tF",
+            "mangledName": "$s7Fdocuts11SpielEngineC25istGebaeudeFreigeschaltet2atSbSi_tF",
+            "moduleName": "Fdocuts",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "zielFuerNaechsteEpoche",
+            "printedName": "zielFuerNaechsteEpoche",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(benoetigt: Swift.Double, aktuell: Swift.Double, prozent: Swift.Float)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(benoetigt: Swift.Double, aktuell: Swift.Double, prozent: Swift.Float)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7Fdocuts11SpielEngineC22zielFuerNaechsteEpocheSd9benoetigt_Sd7aktuellSf7prozenttSgvp",
+            "mangledName": "$s7Fdocuts11SpielEngineC22zielFuerNaechsteEpocheSd9benoetigt_Sd7aktuellSf7prozenttSgvp",
+            "moduleName": "Fdocuts",
+            "isOpen": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(benoetigt: Swift.Double, aktuell: Swift.Double, prozent: Swift.Float)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(benoetigt: Swift.Double, aktuell: Swift.Double, prozent: Swift.Float)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Float",
+                            "printedName": "Swift.Float",
+                            "usr": "s:Sf"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7Fdocuts11SpielEngineC22zielFuerNaechsteEpocheSd9benoetigt_Sd7aktuellSf7prozenttSgvg",
+                "mangledName": "$s7Fdocuts11SpielEngineC22zielFuerNaechsteEpocheSd9benoetigt_Sd7aktuellSf7prozenttSgvg",
+                "moduleName": "Fdocuts",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "stoppeTimer",
+            "printedName": "stoppeTimer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7Fdocuts11SpielEngineC11stoppeTimeryyF",
+            "mangledName": "$s7Fdocuts11SpielEngineC11stoppeTimeryyF",
+            "moduleName": "Fdocuts",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7Fdocuts11SpielEngineC",
+        "mangledName": "$s7Fdocuts11SpielEngineC",
+        "moduleName": "Fdocuts",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "String",
+        "printedName": "String",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "stringTo",
+            "printedName": "stringTo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : AnyObject]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : AnyObject]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:SS7FdocutsE8stringToSDySSyXlGSgyF",
+            "mangledName": "$sSS7FdocutsE8stringToSDySSyXlGSgyF",
+            "moduleName": "Fdocuts",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:SS",
+        "mangledName": "$sSS",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "EagerMove",
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BidirectionalCollection",
+            "printedName": "BidirectionalCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SK",
+            "mangledName": "$sSK"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CodingKeyRepresentable",
+            "printedName": "CodingKeyRepresentable",
+            "usr": "s:s22CodingKeyRepresentableP",
+            "mangledName": "$ss22CodingKeyRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Index",
+                    "printedName": "Swift.String.Index",
+                    "usr": "s:SS5IndexV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ExtendedGraphemeClusterLiteralType",
+                "printedName": "ExtendedGraphemeClusterLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringInterpolation",
+            "printedName": "ExpressibleByStringInterpolation",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringInterpolation",
+                "printedName": "StringInterpolation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultStringInterpolation",
+                    "printedName": "Swift.DefaultStringInterpolation",
+                    "usr": "s:s26DefaultStringInterpolationV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s32ExpressibleByStringInterpolationP",
+            "mangledName": "$ss32ExpressibleByStringInterpolationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByStringLiteral",
+            "printedName": "ExpressibleByStringLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "StringLiteralType",
+                "printedName": "StringLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s26ExpressibleByStringLiteralP",
+            "mangledName": "$ss26ExpressibleByStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByUnicodeScalarLiteral",
+            "printedName": "ExpressibleByUnicodeScalarLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarLiteralType",
+                "printedName": "UnicodeScalarLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MirrorPath",
+            "printedName": "MirrorPath",
+            "usr": "s:s10MirrorPathP",
+            "mangledName": "$ss10MirrorPathP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RangeReplaceableCollection",
+            "printedName": "RangeReplaceableCollection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sm",
+            "mangledName": "$sSm"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Character",
+                    "printedName": "Swift.Character",
+                    "usr": "s:SJ"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Iterator",
+                    "printedName": "Swift.String.Iterator",
+                    "usr": "s:SS8IteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StringProtocol",
+            "printedName": "StringProtocol",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UTF8View",
+                "printedName": "UTF8View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF8View",
+                    "printedName": "Swift.String.UTF8View",
+                    "usr": "s:SS8UTF8ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UTF16View",
+                "printedName": "UTF16View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTF16View",
+                    "printedName": "Swift.String.UTF16View",
+                    "usr": "s:SS9UTF16ViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "UnicodeScalarView",
+                "printedName": "UnicodeScalarView",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnicodeScalarView",
+                    "printedName": "Swift.String.UnicodeScalarView",
+                    "usr": "s:SS17UnicodeScalarViewV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Substring",
+                    "printedName": "Swift.Substring",
+                    "usr": "s:Ss"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sy",
+            "mangledName": "$sSy"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStream",
+            "printedName": "TextOutputStream",
+            "usr": "s:s16TextOutputStreamP",
+            "mangledName": "$ss16TextOutputStreamP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinStringLiteral",
+            "printedName": "_ExpressibleByBuiltinStringLiteral",
+            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasContiguousBytes",
+            "printedName": "_HasContiguousBytes",
+            "usr": "s:s19_HasContiguousBytesP",
+            "mangledName": "$ss19_HasContiguousBytesP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIColor",
+        "printedName": "UIColor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hex:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC7FdocutsE3hex5alphaABSi_14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$sSo7UIColorC7FdocutsE3hex5alphaABSi_12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hexString:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC7FdocutsE9hexString5alphaABSgSS_14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$sSo7UIColorC7FdocutsE9hexString5alphaABSgSS_12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "Fdocuts",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIColor",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIColor",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserDefaults",
+        "printedName": "UserDefaults",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setModel",
+            "printedName": "setModel(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So14NSUserDefaultsC7FdocutsE8setModel_6forKeyyx_SStSeRzSERzlF",
+            "mangledName": "$sSo14NSUserDefaultsC7FdocutsE8setModel_6forKeyyx_SStSeRzSERzlF",
+            "moduleName": "Fdocuts",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "isOpen": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getModel",
+            "printedName": "getModel(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So14NSUserDefaultsC7FdocutsE8getModel_6forKeyxSgxm_SStSeRzSERzlF",
+            "mangledName": "$sSo14NSUserDefaultsC7FdocutsE8getModel_6forKeyxSgxm_SStSeRzSERzlF",
+            "moduleName": "Fdocuts",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "isOpen": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSUserDefaults",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSUserDefaults",
+        "declAttributes": [
+          "ObjC",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/FeedbackUnViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 281,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/FeedbackUnViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 323,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/FeedbackUnViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 354,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/FeedbackUnViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 390,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/FeedbackUnViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1246,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/FeedbackUnViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4695,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/Lcoutrxe.swift",
+      "kind": "StringLiteral",
+      "offset": 870,
+      "length": 66,
+      "value": "\"trWms\/u7vfq9pLW\/t7u5+u3t4LW14eXk5bHn7ey1teGw47CxtuS14vv77qekoKC8\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/Lcoutrxe.swift",
+      "kind": "StringLiteral",
+      "offset": 1312,
+      "length": 86,
+      "value": "\"s6S++rO2trWms\/u6vbW5+6e2taaT+7W+obC++7m7t\/qgurGguru3prGnobahvKC9s\/qjtab7++6npKCgvA==\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/Lcoutrxe.swift",
+      "kind": "StringLiteral",
+      "offset": 2809,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/Lcoutrxe.swift",
+      "kind": "StringLiteral",
+      "offset": 2982,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/Lcoutrxe.swift",
+      "kind": "StringLiteral",
+      "offset": 2998,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/Lcoutrxe.swift",
+      "kind": "StringLiteral",
+      "offset": 3014,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/Lcoutrxe.swift",
+      "kind": "StringLiteral",
+      "offset": 4079,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/Lcoutrxe.swift",
+      "kind": "StringLiteral",
+      "offset": 5970,
+      "length": 6,
+      "value": "\"moI=\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/Lcoutrxe.swift",
+      "kind": "StringLiteral",
+      "offset": 5987,
+      "length": 5,
+      "value": "\"nIQ\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/Lcoutrxe.swift",
+      "kind": "StringLiteral",
+      "offset": 6003,
+      "length": 5,
+      "value": "\"kJ0\""
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/Lcoutrxe.swift",
+      "kind": "FloatLiteral",
+      "offset": 9949,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/Lcoutrxe.swift",
+      "kind": "FloatLiteral",
+      "offset": 10244,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/SpielEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 232,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/SpielEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 243,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/SpielEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 259,
+      "length": 11,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/SpielEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 11,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/SpielEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1259,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/SpielEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1318,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hades\/Desktop\/Code\/26\/05\/0517麻\/11\/Fdocuts\/Fdocuts\/SpielEngine.swift",
+      "kind": "StringLiteral",
+      "offset": 1591,
+      "length": 22,
+      "value": "\"IdleAncestorSaveData\""
+    }
+  ]
+}

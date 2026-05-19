@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2895CCBA2FBC2F46005C2BE3 /* Fdocuts.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2895CCB92FBC2F46005C2BE3 /* Fdocuts.xcframework */; };
+		3054FC9B679D9CBAEBE73377 /* Pods_Grab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DCCB893CC60ECC7EDC763EB /* Pods_Grab.framework */; };
+		FE31B9DA2FBAD8DB00FC12A4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE31B9D72FBAD8DB00FC12A4 /* GameViewController.swift */; };
+		FE31B9DB2FBAD8DB00FC12A4 /* InstructionsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE31B9D12FBAD8DB00FC12A4 /* InstructionsScene.swift */; };
+		FE31B9DC2FBAD8DB00FC12A4 /* GameProp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE31B9CD2FBAD8DB00FC12A4 /* GameProp.swift */; };
+		FE31B9DD2FBAD8DB00FC12A4 /* SettingsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE31B9D42FBAD8DB00FC12A4 /* SettingsScene.swift */; };
+		FE31B9DE2FBAD8DB00FC12A4 /* GrabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE31B9CE2FBAD8DB00FC12A4 /* GrabModel.swift */; };
+		FE31B9DF2FBAD8DB00FC12A4 /* StatisticsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE31B9D52FBAD8DB00FC12A4 /* StatisticsScene.swift */; };
+		FE31B9E02FBAD8DB00FC12A4 /* RecordsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE31B9D32FBAD8DB00FC12A4 /* RecordsScene.swift */; };
+		FE31B9E12FBAD8DB00FC12A4 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE31B9CB2FBAD8DB00FC12A4 /* GameSettings.swift */; };
+		FE31B9E22FBAD8DB00FC12A4 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE31B9D22FBAD8DB00FC12A4 /* MenuScene.swift */; };
+		FE31B9E32FBAD8DB00FC12A4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE31B9D02FBAD8DB00FC12A4 /* GameScene.swift */; };
+		FE31B9E42FBAD8DB00FC12A4 /* GameConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE31B9C92FBAD8DB00FC12A4 /* GameConstants.swift */; };
+		FE31B9E52FBAD8DB00FC12A4 /* GameRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE31B9CA2FBAD8DB00FC12A4 /* GameRecord.swift */; };
+		FE31B9E62FBAD8DB00FC12A4 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE31B9D82FBAD8DB00FC12A4 /* InstructionsViewController.swift */; };
+		FEF0D50B2EFF9A0E007BAC17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF0D5002EFF9A0E007BAC17 /* Assets.xcassets */; };
+		FEF0D50D2EFF9A0E007BAC17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF0D5042EFF9A0E007BAC17 /* LaunchScreen.storyboard */; };
+		FEF0D50E2EFF9A0E007BAC17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF0D5062EFF9A0E007BAC17 /* Main.storyboard */; };
+		FEF0D5102EFF9A0E007BAC17 /* Grab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEF0D5012EFF9A0E007BAC17 /* Grab.xcdatamodeld */; };
+		FEF0D51D2EFF9FEC007BAC17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF0D5132EFF9FEC007BAC17 /* AppDelegate.swift */; };
+		FEF0D5212EFF9FEC007BAC17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF0D51C2EFF9FEC007BAC17 /* SceneDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2895CCB92FBC2F46005C2BE3 /* Fdocuts.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Fdocuts.xcframework; sourceTree = "<group>"; };
+		4569AC2139BE9F781F98B41E /* Pods-Grab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grab.debug.xcconfig"; path = "Target Support Files/Pods-Grab/Pods-Grab.debug.xcconfig"; sourceTree = "<group>"; };
+		48B2243E5116FD3FB847803B /* Pods-Grab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Grab.release.xcconfig"; path = "Target Support Files/Pods-Grab/Pods-Grab.release.xcconfig"; sourceTree = "<group>"; };
+		6DCCB893CC60ECC7EDC763EB /* Pods_Grab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Grab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE31B9C92FBAD8DB00FC12A4 /* GameConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConstants.swift; sourceTree = "<group>"; };
+		FE31B9CA2FBAD8DB00FC12A4 /* GameRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRecord.swift; sourceTree = "<group>"; };
+		FE31B9CB2FBAD8DB00FC12A4 /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		FE31B9CD2FBAD8DB00FC12A4 /* GameProp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProp.swift; sourceTree = "<group>"; };
+		FE31B9CE2FBAD8DB00FC12A4 /* GrabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrabModel.swift; sourceTree = "<group>"; };
+		FE31B9D02FBAD8DB00FC12A4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FE31B9D12FBAD8DB00FC12A4 /* InstructionsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsScene.swift; sourceTree = "<group>"; };
+		FE31B9D22FBAD8DB00FC12A4 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		FE31B9D32FBAD8DB00FC12A4 /* RecordsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsScene.swift; sourceTree = "<group>"; };
+		FE31B9D42FBAD8DB00FC12A4 /* SettingsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScene.swift; sourceTree = "<group>"; };
+		FE31B9D52FBAD8DB00FC12A4 /* StatisticsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsScene.swift; sourceTree = "<group>"; };
+		FE31B9D72FBAD8DB00FC12A4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FE31B9D82FBAD8DB00FC12A4 /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		FEF0D4E42EFF99F3007BAC17 /* Grab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF0D5002EFF9A0E007BAC17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEF0D5022EFF9A0E007BAC17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF0D5032EFF9A0E007BAC17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEF0D5052EFF9A0E007BAC17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEF0D50A2EFF9A0E007BAC17 /* Grab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Grab.xcdatamodel; sourceTree = "<group>"; };
+		FEF0D5132EFF9FEC007BAC17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEF0D51C2EFF9FEC007BAC17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEF0D4E12EFF99F3007BAC17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2895CCBA2FBC2F46005C2BE3 /* Fdocuts.xcframework in Frameworks */,
+				3054FC9B679D9CBAEBE73377 /* Pods_Grab.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1860417F7C238EEC1A646E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4569AC2139BE9F781F98B41E /* Pods-Grab.debug.xcconfig */,
+				48B2243E5116FD3FB847803B /* Pods-Grab.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D72666CCD5E77DDE9FB4E794 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DCCB893CC60ECC7EDC763EB /* Pods_Grab.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE31B9CC2FBAD8DB00FC12A4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FE31B9C92FBAD8DB00FC12A4 /* GameConstants.swift */,
+				FE31B9CA2FBAD8DB00FC12A4 /* GameRecord.swift */,
+				FE31B9CB2FBAD8DB00FC12A4 /* GameSettings.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		FE31B9CF2FBAD8DB00FC12A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FE31B9CD2FBAD8DB00FC12A4 /* GameProp.swift */,
+				FE31B9CE2FBAD8DB00FC12A4 /* GrabModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FE31B9D62FBAD8DB00FC12A4 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				FE31B9D02FBAD8DB00FC12A4 /* GameScene.swift */,
+				FE31B9D12FBAD8DB00FC12A4 /* InstructionsScene.swift */,
+				FE31B9D22FBAD8DB00FC12A4 /* MenuScene.swift */,
+				FE31B9D32FBAD8DB00FC12A4 /* RecordsScene.swift */,
+				FE31B9D42FBAD8DB00FC12A4 /* SettingsScene.swift */,
+				FE31B9D52FBAD8DB00FC12A4 /* StatisticsScene.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		FE31B9D92FBAD8DB00FC12A4 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FE31B9D72FBAD8DB00FC12A4 /* GameViewController.swift */,
+				FE31B9D82FBAD8DB00FC12A4 /* InstructionsViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		FEF0D4DB2EFF99F3007BAC17 = {
+			isa = PBXGroup;
+			children = (
+				FEF0D5092EFF9A0E007BAC17 /* Grab */,
+				FEF0D4E52EFF99F3007BAC17 /* Products */,
+				D1860417F7C238EEC1A646E6 /* Pods */,
+				D72666CCD5E77DDE9FB4E794 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEF0D4E52EFF99F3007BAC17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEF0D4E42EFF99F3007BAC17 /* Grab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEF0D5092EFF9A0E007BAC17 /* Grab */ = {
+			isa = PBXGroup;
+			children = (
+				FEF0D5002EFF9A0E007BAC17 /* Assets.xcassets */,
+				FEF0D5012EFF9A0E007BAC17 /* Grab.xcdatamodeld */,
+				FEF0D5022EFF9A0E007BAC17 /* Info.plist */,
+				FEF0D5042EFF9A0E007BAC17 /* LaunchScreen.storyboard */,
+				FEF0D5062EFF9A0E007BAC17 /* Main.storyboard */,
+				FEF0D5132EFF9FEC007BAC17 /* AppDelegate.swift */,
+				FEF0D51C2EFF9FEC007BAC17 /* SceneDelegate.swift */,
+				2895CCB92FBC2F46005C2BE3 /* Fdocuts.xcframework */,
+				FE31B9CC2FBAD8DB00FC12A4 /* Constants */,
+				FE31B9CF2FBAD8DB00FC12A4 /* Model */,
+				FE31B9D62FBAD8DB00FC12A4 /* Scene */,
+				FE31B9D92FBAD8DB00FC12A4 /* VC */,
+			);
+			path = Grab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEF0D4E32EFF99F3007BAC17 /* Grab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF0D4FA2EFF99F5007BAC17 /* Build configuration list for PBXNativeTarget "Grab" */;
+			buildPhases = (
+				BEB80BF9B7394B6F6FC828C4 /* [CP] Check Pods Manifest.lock */,
+				FEF0D4E02EFF99F3007BAC17 /* Sources */,
+				FEF0D4E12EFF99F3007BAC17 /* Frameworks */,
+				FEF0D4E22EFF99F3007BAC17 /* Resources */,
+				50E9C2F57B3A7046B3B780F5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grab;
+			productName = Grab;
+			productReference = FEF0D4E42EFF99F3007BAC17 /* Grab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEF0D4DC2EFF99F3007BAC17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					FEF0D4E32EFF99F3007BAC17 = {
+						CreatedOnToolsVersion = 16.3;
+						LastSwiftMigration = 1630;
+					};
+				};
+			};
+			buildConfigurationList = FEF0D4DF2EFF99F3007BAC17 /* Build configuration list for PBXProject "Grab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEF0D4DB2EFF99F3007BAC17;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FEF0D4E52EFF99F3007BAC17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEF0D4E32EFF99F3007BAC17 /* Grab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEF0D4E22EFF99F3007BAC17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF0D50B2EFF9A0E007BAC17 /* Assets.xcassets in Resources */,
+				FEF0D50D2EFF9A0E007BAC17 /* LaunchScreen.storyboard in Resources */,
+				FEF0D50E2EFF9A0E007BAC17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50E9C2F57B3A7046B3B780F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grab/Pods-Grab-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Grab/Pods-Grab-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Grab/Pods-Grab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEB80BF9B7394B6F6FC828C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Grab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEF0D4E02EFF99F3007BAC17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF0D51D2EFF9FEC007BAC17 /* AppDelegate.swift in Sources */,
+				FE31B9DA2FBAD8DB00FC12A4 /* GameViewController.swift in Sources */,
+				FE31B9DB2FBAD8DB00FC12A4 /* InstructionsScene.swift in Sources */,
+				FE31B9DC2FBAD8DB00FC12A4 /* GameProp.swift in Sources */,
+				FE31B9DD2FBAD8DB00FC12A4 /* SettingsScene.swift in Sources */,
+				FE31B9DE2FBAD8DB00FC12A4 /* GrabModel.swift in Sources */,
+				FE31B9DF2FBAD8DB00FC12A4 /* StatisticsScene.swift in Sources */,
+				FE31B9E02FBAD8DB00FC12A4 /* RecordsScene.swift in Sources */,
+				FE31B9E12FBAD8DB00FC12A4 /* GameSettings.swift in Sources */,
+				FE31B9E22FBAD8DB00FC12A4 /* MenuScene.swift in Sources */,
+				FE31B9E32FBAD8DB00FC12A4 /* GameScene.swift in Sources */,
+				FE31B9E42FBAD8DB00FC12A4 /* GameConstants.swift in Sources */,
+				FE31B9E52FBAD8DB00FC12A4 /* GameRecord.swift in Sources */,
+				FE31B9E62FBAD8DB00FC12A4 /* InstructionsViewController.swift in Sources */,
+				FEF0D5212EFF9FEC007BAC17 /* SceneDelegate.swift in Sources */,
+				FEF0D5102EFF9A0E007BAC17 /* Grab.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEF0D5042EFF9A0E007BAC17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEF0D5032EFF9A0E007BAC17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FEF0D5062EFF9A0E007BAC17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEF0D5052EFF9A0E007BAC17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEF0D4FB2EFF99F5007BAC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4569AC2139BE9F781F98B41E /* Pods-Grab.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Grab/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mahjong Grab";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use your camera to take photos";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need your consent to save the data infographics generated within the app to your photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need your consent to save the data infographics generated within the app to your photo album.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We will use your data to enhance your user experience and provide personalized advertising services";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Grab.Zhuys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FEF0D4FC2EFF99F5007BAC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B2243E5116FD3FB847803B /* Pods-Grab.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Grab/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mahjong Grab";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to use your camera to take photos";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need your consent to save the data infographics generated within the app to your photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need your consent to save the data infographics generated within the app to your photo album.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We will use your data to enhance your user experience and provide personalized advertising services";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Grab.Zhuys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FEF0D4FD2EFF99F5007BAC17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEF0D4FE2EFF99F5007BAC17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEF0D4DF2EFF99F3007BAC17 /* Build configuration list for PBXProject "Grab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF0D4FD2EFF99F5007BAC17 /* Debug */,
+				FEF0D4FE2EFF99F5007BAC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF0D4FA2EFF99F5007BAC17 /* Build configuration list for PBXNativeTarget "Grab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF0D4FB2EFF99F5007BAC17 /* Debug */,
+				FEF0D4FC2EFF99F5007BAC17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FEF0D5012EFF9A0E007BAC17 /* Grab.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FEF0D50A2EFF9A0E007BAC17 /* Grab.xcdatamodel */,
+			);
+			currentVersion = FEF0D50A2EFF9A0E007BAC17 /* Grab.xcdatamodel */;
+			path = Grab.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FEF0D4DC2EFF99F3007BAC17 /* Project object */;
+}
